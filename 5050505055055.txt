@@ -1,0 +1,8 @@
+charset="utf-8" />
+		<title>제목</title>
+		<style type="text/css">
+			h1{background-color:#fa7;}
+			/* 내용파악~~*/
+			p{background-color:#0af; color:#fa0;}
+		
+			a:hover{display:none;}
