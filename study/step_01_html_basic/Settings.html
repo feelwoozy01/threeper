@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> <!--싱글태그 뒤엔 한칸띄우고 슬러쉬-->
+  <title>Document</title>
+  <style type="text/css">
+    h1{background-color:#f06; color:#fff; width:500px; height:200px;}
+    h2{background-color:#60f;}
+    p{background-color:#acc;} /* block형식; size조절 가능*/
+    .box1{background-color:#caf;} /* class는 스타일에서 .으료 표시함*/
+    .box2{color:#fff; background-color:#f00;} /*나중에 쓴 태그가 적용됨*/
+    span{background-color:#fa0; width:200px; height:50px;
+     display:block;} /*inline형식; size조절 불가능 - display태그로 강제로 줄수있음*/
+    strong, em, ins, del{color:#90c;} /*inline형식 */
+  </style>
+  <script type="text/javascript"></script>
+</head>
+<body>
+  <!-- id이름은 ★단 하나의 이름을 가짐. 주민등록증같은 개념
+  class는 여러번 사용가능(하나의 태그에 여러개의 class이름을 가질 수 있다)-->
+  <h1>제목을 표현하는 태그, 가장중요한 제목; 전체문서에서 ★단 한번만 사용가능-사장님</h1>
+  <h2 id="one">두번째 중요한 제목; 여러번 사용가능-부장</h2>
+  <h3 id="two">세번째; 차장</h3>
+  <h4>네번째; 과장</h4>
+  <h5>다섯번째; 대리</h5>
+  <h6>마지막 중요한 제목;주임</h6><hr />
+  <!-- hr태그: 이전내용과 다음에 오는 내용의 분리!! -->
+  <p>★내용을 표현하는 태그(element) - 사원 </p>
+  <p>내용을 분리할때는 문단과 문단으로 구분한다.
+    하지만 단순하게 내용을 줄바꿈할 경우에는<br />
+    ★&lt;br /&gt;태그를 사용한다.
+    <!-- &lt;은  왼쪽으로 꺾인 가로로 보이기, &gt;는 반대로 보이게 함-->
+  </p>
+  <p>★특수글자를 사용할때는 &amp; &lt; &gt; &copy;</p>
+  <p class="box1 box2">문단을 나타내는 p태그는 줄바꿈이 자동으로 되지 않는다. <br />
+   띄어쓰기 하나이상 적용되지 않는다
+   <!-- class이름주는 방법: 첫글자는 반드시 영문소문자(숫자오면안됨), 띄어쓰기 없음(또다른 이름의 형성),
+   이름구분:단어/형용사로표기 언더바(_)나 뒷단어 첫글자 대문자, 특수문자 사용안됨-->
+   <span>★내용상 그룹을 표현하는 태그 </span>
+   <span>큰 의미없는 그룹의 역할</span>
+ </p>
+   <pre class="box1">
+     띄어쓰기, 줄바꿈, 탭기능....등등
+     모든 내용이 보이는대로 적용    ~!!
+
+     하지만! 사용하지 않는다!!
+
+   </pre>
+   <p>강조를 나타내는 태그가 있습니다<br />
+     <b>bold</b>, <i>italic</i>, <u>underline</u>, <s>strike</s>, <strike>strike</strike><br />
+     b, i, u, s는 실제로 사용하지 않습니다- 의미가 없는 역할- 웹접근성을 위해서-간단한 효과의 의미만있음<br />
+
+    ★실제로 사용하는 태그<br />
+    <strong>bold</strong>, <em>italic</em>, <ins>underline</ins>, <del>strike</del>
+ </p><p>
+ <q>인용문 태그; 어디선가 말한내용..<br />
+ " 네 자신을 알라!!" 소크라테스</q>
+ <cite>summary 역할:설명</cite><br />
+ <abbr title="hiper text markup language">HTML</abbr><br />
+ </p>
+ <!-- ★인라인 태그(나열되는 태그, 물같은 존재)는 반드시 p태그(블럭같은 태그)로 감싸라..-->
+ <blockquote cite="http://인용이 사용된 실제주소">
+   인용을 하고자 하는 내용(장문)
+ </blockquote>
+ <!-- 인용문태그-->
+
+
+</body>
+</html>
