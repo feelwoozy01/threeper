@@ -1,0 +1,47 @@
+/* header.css */
+
+#header_wrap{width:100%; height: 90px;  border-bottom: 1px solid #eee;}
+
+#header{width:1250px ;height: 70px; padding: 10px 0;}
+	h1 {width: 126px;height: 62px; float: left;}
+	h1>a{width: 100%; height: 100%; display: block;
+		background-image: url("../img/logo.jpg");
+ 		background-repeat: no-repeat; background-position:right center;}
+	h1>a>span{width: 0; height: 0; display: block; overflow: hidden;}
+
+#sitemap {width:168px; height: 12px; float: right;	margin-top: 3px;}
+	#sitemap>ul{width: 100%; height: 100%;}
+	#sitemap>ul>li{ height: 100%; float: left;}
+	#sitemap>ul>.sitemap_01{width: 76px;}
+	#sitemap>ul>.sitemap_02{width: 32px;}
+	#sitemap>ul>.sitemap_03{width: 60px;}
+	#sitemap>ul>.sitemap_01>a{width:66px; background-image:url("../img/sitemap_1.jpg"); background-repeat: no-repeat; }
+	#sitemap>ul>.sitemap_02>a{width:22px; background-image:url("../img/sitemap_2.jpg"); background-repeat: no-repeat; }
+	#sitemap>ul>.sitemap_03>a{width:50px; background-image:url("../img/sitemap_3.jpg"); background-repeat: no-repeat; }
+	#sitemap>ul>li>a{background-position: center;  height: 12px; float: left;}
+    #sitemap a+span{width: 10px; height: 12px; display: block; background-image: url("../img/sitemap_bar.jpg"); float: left; background-repeat: no-repeat; background-position: center;}
+
+    #search{width: 173px;float: right;}
+    #search>.search{width: 150px;float: left; border:1px solid #eee;}
+    #search>.search_img{}
+    label[for="okBtn"] {width: 0;height: 0;display: none; overflow: hidden;}    
+
+#gnb {width: 800px; height: 34px;float: right; padding-left: 300px; margin-top: 16px;} 
+ 	#gnb>ul{} 
+ 	#gnb>ul>li {float: left;} 
+ 	#gnb>ul>li>a {height: 34px; background-position: center;} 
+ 	#gnb>ul>.gnb_01{width:142px;} 
+ 	#gnb>ul>.gnb_02{width:142px;} 
+ 	#gnb>ul>.gnb_03{width:144px;} 
+    #gnb>ul>.gnb_04{width:144px;} 
+ 	#gnb>ul>.gnb_05{width:228px;} 
+ 	#gnb>ul>.gnb_01>a{background-image:url("../img/menu_1.jpg");background-repeat: no-repeat; background-position:right;} 
+ 	#gnb>ul>.gnb_02>a{background-image:url("../img/menu_2.jpg");background-repeat: no-repeat; background-position:right;} 
+ 	#gnb>ul>.gnb_03>a{background-image:url("../img/menu_3.jpg");background-repeat: no-repeat; background-position:right;} 
+ 	#gnb>ul>.gnb_04>a{background-image:url("../img/menu_4.jpg");background-repeat: no-repeat; background-position:right;} 
+    #gnb>ul>.gnb_05>a{background-image:url("../img/pharm.jpg");background-repeat: no-repeat;  background-position:right;} 
+ 	#gnb>ul>.gnb_01>a:hover{background-image:url("../img/menu_1over.jpg");background-repeat: no-repeat; background-position:right;} 
+ 	#gnb>ul>.gnb_02>a:hover{background-image:url("../img/menu_2over.jpg");background-repeat: no-repeat; background-position:right;} 
+ 	#gnb>ul>.gnb_03>a:hover{background-image:url("../img/menu_3over.jpg");background-repeat: no-repeat; background-position:right;} 
+ 	#gnb>ul>.gnb_04>a:hover{background-image:url("../img/menu_4over.jpg");background-repeat: no-repeat; background-position:right;} 
+    #gnb>ul>.gnb_05>a:hover{background-image:url("../img/pharm.jpg");background-repeat: no-repeat;  background-position:right;} 
